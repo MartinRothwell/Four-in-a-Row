@@ -6,4 +6,4 @@
 Console based Connect Four type game.
 
 
-***In loving memory of Eric "Doug" Anderson***
+***In loving memory of Eric "Doug" Anderson**
