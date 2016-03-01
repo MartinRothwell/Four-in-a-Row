@@ -16,7 +16,7 @@ void DestroyGameBoard(char **GameBoard, int winSize);
 
 int main()
 {
-	bool win1 = false,//checks for player win
+	bool win1 = false,//checks for player wins
 		win2 = false,//checks for computer win
 		win3 = false; // checks for a tie.
 	int winSize = GetConnectionSize();
