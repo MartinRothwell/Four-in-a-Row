@@ -1,0 +1,11 @@
+int GetConnectionSize(void);
+char** BuildGameBoard(int winSize);
+void DisplayGameBoard(char **GameBoard, int winSize);
+void PlayerMove(char **GameBoard, int winSize);
+void ComputerMove(char **GameBoard, int winSize);
+bool CheckRowWin(char **GameBoard, int winSize);
+bool CheckColumnWin(char **GameBoard, int winSize);
+bool CheckRightDiagonalWin(char **GameBoard, int winSize);
+bool CheckLeftDiagonalWin(char **GameBoard, int winSize);
+bool CheckTie(char **GameBoard, int winSize);
+void DestroyGameBoard(char **GameBoard, int winSize);
